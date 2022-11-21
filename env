@@ -1,0 +1,5 @@
+COMPOSE_PROJECT_NAME=privacy-tuna
+
+POSTGRES_DB=privateroutes
+POSTGRES_USER=privateroutes
+POSTGRES_PASSWORD=password
