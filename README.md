@@ -29,17 +29,23 @@ parameters to achieve a good utility-privacy trade-off.
 - Measure the utility of the data to understand its value
 - Tune the parameters of privacy-preserving mechanisms to achieve a good balance between utility and privacy
 
-More information can be found [here](resources/Frontend_Demo_v5_repo.pdf).
+More information can be found [here](resources/Schneider_Privacy_Tuna_20221209.pdf).
+
 
 ### Demonstrator & Video
-
-<img src="resources/fig4.png" alt="" width="900"/>
+<img src="resources/fig6.png" alt="" width="900"/>
 
 You can try out our demonstrator [here](https://livinglab.scadsai.uni-leipzig.de/privacy-tuna/).
 It includes a few routes from Porto Taxi dataset [[1](resources/D_TOUR_Schneider.pdf)], 
-consisting of cab rides in Porto, Portugal. The dataset can be found [here](resources/porto_taxi_dataset.csv).
+consisting of cab rides in Porto, Portugal. The dataset can be found [here](resources/porto_taxi_dataset_small.csv).
 To get a quick overview over the features and how to use *Privacy Tuna*, take a look at the 
 <a href="https://cloud.scadsai.uni-leipzig.de/index.php/s/pdjMfiEMbQcXYZD" target="_blank">demonstration video</a>.
+
+
+### Usage
+- Flask backend is available at https://github.com/majaschneider/privacytuna-services
+- SpringBoot backend and database are available at https://github.com/majaschneider/privacytuna-backend
+- Angular Frontend is available at https://github.com/majaschneider/privacytuna-frontend
 
 
 ### License
@@ -47,10 +53,20 @@ To get a quick overview over the features and how to use *Privacy Tuna*, take a 
 
 
 ### Acknowledgement
-*Privacy Tuna* is developed by University of Leipzig & ScaDS.AI Dresden/Leipzig, Germany under the financial support by the Federal 
-Ministry of Education and Research of Germany and by the S&auml;chsische Staatsministerium f&uuml;r Wissenschaft Kultur und 
-Tourismus in the program Center of Excellence for AI-research "Center for Scalable Data Analytics and Artificial 
-Intelligence Dresden/Leipzig", project identification number: ScaDS.AI
+*Privacy Tuna* is developed by University of Leipzig & ScaDS.AI Dresden/Leipzig, Germany partially funded by the 
+German Federal Ministry of Education and Research under grant DE4L 01MD19008D and ScaDS.AI Dresden/Leipzig 01IS18026B.
+
+
+### Software Stack
+*Privacy Tuna* uses the following software stack:
+- Flask (https://flask.palletsprojects.com/en/2.2.x/)
+- SpringBoot (https://spring.io)
+- Angular (https://angular.io)
+- Leaflet (https://leafletjs.com)
+- PostgreSQL (https://www.postgresql.org)
+- PostGIS (https://postgis.net)
+- KeyCloak (https://www.keycloak.org)
+
 
 ### References
 [[1]](resources/D_TOUR_Schneider.pdf) Schneider et al. (2022), D-TOUR : Detour-based point of interest detection in privacy-sensitive trajectories
