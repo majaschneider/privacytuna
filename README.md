@@ -42,12 +42,17 @@ To get a quick overview over the features and how to use *Privacy Tuna*, take a 
 <a href="https://cloud.scadsai.uni-leipzig.de/index.php/s/snTpZd7o4NCS5rB" target="_blank">demonstration video</a>.
 
 
-### Development
-For development follow the instructions in the following repositories:
+### Development & Build
+For development follow the development instructions in the following repositories:
 - [Flask backend](https://git.informatik.uni-leipzig.de/scads/de4l/privacy/de4l-privacy-services)
 - [SpringBoot backend](https://git.informatik.uni-leipzig.de/scads/de4l/privacy/de4l-private-routes-backend)
 - [Angular Frontend](https://git.informatik.uni-leipzig.de/scads/de4l/privacy/de4l-private-routes-frontend)
 
+To build the application, follow the build instructions in each repository to create a docker container. 
+Once all containers are built, clone this repository and change to the root path, then run
+```bash
+docker-compose up
+```
 
 ### License
 *Privacy Tuna* is licensed under [Apache License, Version 2.0](LICENSE)
