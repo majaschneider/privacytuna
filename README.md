@@ -53,6 +53,7 @@ Once all containers are built, clone this repository and change to the root path
 ```bash
 docker-compose up
 ```
+The application is running on http://localhost/.
 
 ### License
 *Privacy Tuna* is licensed under [Apache License, Version 2.0](LICENSE)
@@ -76,3 +77,5 @@ German Federal Ministry of Education and Research under grant DE4L 01MD19008D an
 
 ### References
 [[1]](resources/D_TOUR_Schneider.pdf) Schneider et al. (2022), D-TOUR : Detour-based point of interest detection in privacy-sensitive trajectories
+
+[[2]](resources/paper-160.pdf) Schneider et al. (2023) Tuning the Utility-Privacy Trade-Off in Trajectory Data
