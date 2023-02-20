@@ -53,6 +53,7 @@ Once all containers are built, clone this repository and change to the root path
 ```bash
 docker-compose up
 ```
+The application is running on http://localhost/.
 
 ### License
 *Privacy Tuna* is licensed under [Apache License, Version 2.0](LICENSE)
