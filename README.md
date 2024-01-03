@@ -1,6 +1,6 @@
 # Privacy Tuna: Tuning the Utility-Privacy Trade-Off in Trajectory Data
 
-<img src="resources/tuna_logo_db_l.png" alt="" width="128"/>
+<img src="resources/tuna_logo_db_invert_l.png" alt="" width="128"/>
 
 *Privacy Tuna* is an open source visualization system that enables users to assess the privacy risk in 
 trajectory data, to apply privacy-preserving mechanisms and intuitively tune the trade-off 
