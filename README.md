@@ -39,7 +39,7 @@ You can try out our demonstrator [here](https://livinglab.scadsai.uni-leipzig.de
 It includes a few routes from Porto Taxi dataset [[1](resources/D_TOUR_Schneider.pdf)], 
 consisting of cab rides in Porto, Portugal. The dataset can be found [here](resources/porto_taxi_processed_filtered.json).
 To get a quick overview over the features and how to use *Privacy Tuna*, take a look at the 
-[demonstration video](resources/Frontend\ demonstration_s.mp4).
+[demonstration video](resources/Frontend demonstration_s.mp4).
 
 
 ### Development & Build
